@@ -15,7 +15,8 @@
 ;===------------------------------------------------------------------------===;
 
 [common]
-subdirectories = MCTargetDesc TargetInfo
+subdirectories = TargetInfo
+; MCTargetDesc
 
 [component_0]
 type = TargetGroup
@@ -37,6 +38,6 @@ required_libraries =
  SelectionDAG 
  Support
  Target
- MachineDesc
  MachineInfo
+; MachineDesc
 add_to_library_groups = Machine
